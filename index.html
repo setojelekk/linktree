@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kostenlose Videos und Fotos</title>
+    <!-- Favicon -->
+    <link rel="icon" href="logo.jpg" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="logo.jpg" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="logo.jpg" target="_blank">
+            <img src="logo.jpg" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          Ich bin schön?
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      @melina
+    </div>
+
+    <div id="links">
+      <a class="link" href= "javascript:Navigate();" >
+        jav
+      </a>
+    </div>
+
+    <div id="hashtag">
+      #BeHappy❤
+    </div>
+    <script type="text/javascript">
+      function Navigate(){   
+           window.location.replace('https://instagram.com');
+          return false;
+      }
+     </script>
+  </body>
+</html>
